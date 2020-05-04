@@ -50,7 +50,7 @@ function App() {
   return (
     <div className="App">
       <header className=' bg-teal-600 mb-20'>
-        <img src={document.documentElement.clientWidth > 768 ? '/images/bg-header-desktop.svg' : '/images/bg-header-mobile.svg'} className={document.documentElement.clientWidth > 768 ? '' : 'w-screen'} alt='background'/>
+        <img src={document.documentElement.clientWidth > 768 ? './images/bg-header-desktop.svg' : './images/bg-header-mobile.svg'} className={document.documentElement.clientWidth > 768 ? '' : 'w-screen'} alt='background'/>
       </header> 
         {filters.length > 0 && (
           <div className='flex flex-wrap p-4 py-2 -my-32 z-10 relative bg-white shadow-lg my-6 m-6 mb-16 rounded md:mx-32 md:mb-10'>
